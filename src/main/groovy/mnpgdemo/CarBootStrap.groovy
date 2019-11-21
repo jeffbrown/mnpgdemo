@@ -16,7 +16,9 @@ class CarBootStrap {
 
     @EventListener
     void createCars(ServerStartupEvent event) {
-        carService.save 'Ford', 'Fusion'
-        carService.save 'Chevy', 'Equinox'
+        if(!carService.count()) {
+            carService.save 'Ford', 'Fusion'
+            carService.save 'Chevy', 'Equinox'
+        }
     }
 }

@@ -7,4 +7,6 @@ interface CarService {
 
     List<Car> list()
     Car save(String make, String model)
+
+    int count()
 }
