@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: mnpgdemo
+---
+testFramework: spock
+sourceLanguage: groovy
