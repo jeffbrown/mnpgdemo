@@ -1,0 +1,4 @@
+dataSource:
+  url: 'jdbc:postgresql://google/<DATABASE_NAME>?cloudSqlInstance=<INSTANCE_CONNECTION_NAME>&socketFactory=com.google.cloud.sql.postgres.SocketFactory'
+  username: '<USER NAME>'
+  password: '<PASSWORD>'

@@ -1,0 +1,9 @@
+runtime: java
+env: flex
+service: jsb-autos
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 4
+  cool_down_period_sec: 180
+env_variables:
+  JAVA_HEAP_OPTS: '-Xmx64M'
